@@ -1,0 +1,10 @@
+/.git/*
+/.sass-cache/*
+/upload/*
+
+/.access.php
+/favicon.ico
+/robots.txt
+/web.config
+
+bitrix/*
