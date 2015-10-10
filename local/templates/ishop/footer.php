@@ -203,13 +203,5 @@
 </html>
 
 <?
-$APPLICATION->AddHeadScript('https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/slick/slick.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/bootstrap/js/bootstrap.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/smoothscroll.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/scrollReveal.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/rangeslider/js/ion-rangeSlider/ion.rangeSlider.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/lightGallery/dist/js/lightgallery.min.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/vendor/jquery.inputmask.js');
-$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/script.js');
+$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/main.min.js');
 ?>

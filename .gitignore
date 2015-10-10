@@ -1,6 +1,7 @@
 /.git/*
 /.sass-cache/*
 /upload/*
+/node_modules/*
 
 /.access.php
 /favicon.ico

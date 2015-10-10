@@ -7,14 +7,7 @@ CJSCore::Init(array("fx"));
         <? $APPLICATION->ShowHead(); ?>
         <title><? $APPLICATION->ShowTitle() ?></title>
         <?
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/bootstrap/css/bootstrap.min.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/animate.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/slick/slick-theme.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/slick/slick.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/rangeslider/css/ion.rangeSlider.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/rangeslider/css/ion.rangeSlider.skinHTML5.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/vendor/lightGallery/dist/css/lightgallery.min.css");
-        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");
+        $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/main.min.css");
         ?>
     </head>
 
