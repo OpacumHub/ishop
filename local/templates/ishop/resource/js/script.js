@@ -469,7 +469,7 @@ $(document).ready(function(){
 		validated = $form.find('.has-success').length;
 
         //если нет ошибок
-		if (required === validated){;
+		if (required === validated){
 			return true;
 		} else {
 			return false;
